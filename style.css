@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container nav {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 2em;
+    background-color:rgb(46, 43, 43);
+    padding: 15px;
+    position:sticky;
+}
+
+.name{
+    color: white;
+}
+
+.item{
+    color:white;
+    text-decoration: none;
+}
+
+.hero{
+    display: flex;
+    background-color: rgb(49, 49, 68);
+    padding: 100px;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    
+}
+
+.hero_item1{
+    text-transform: uppercase;
+    color: white;
+}
+
+.hero_item2 img{
+    border-radius: 15px;
+    width: 500px;
+    height: auto;
+    border: 2px solid #ccc;
+    box-shadow: 0;
+    border: 4px solid white;
+}
+
+.products_container{
+    background-color:pink;
+    padding: 100px;
+}
+
+.products_container h1 {
+    text-transform: uppercase; /* Transform text to uppercase */
+    text-align: center;        /* Center the text horizontally */
+    display: flex;             /* Use Flexbox */
+    justify-content: center;   /* Center horizontally */
+    align-items: center;       /* Center vertically */
+    height: 100%;              /* Set height to 100% of its container */
+    color: white;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content: center;
+    margin-top: 50px;
+   
+}
+
+
+.products img{
+   width: 160px;
+   height: 160px;
+   object-fit: cover;
+   border-radius: 15px;
+   border: 4px solid #3882f6;
+
+}
+
+p{
+    font-size: larger;
+    word-wrap: break-word;
+    color: white;
+}
+
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color:#1f2937;
+    padding: 7em 10em;i
+}
+
+.testimonial p {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+      .contact{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 10em;
+    background-color: #1f2937;
+}
+
+.contact button{
+    border:2px solid white;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+
+}
+
+
+footer{
+    background-color:black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px ;
+}
+
+    
